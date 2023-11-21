@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="#e4c5c4"
+    android:layout_height="match_parent"
+    tools:context=".pagina4">
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="375dp"
+        android:layout_height="284dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginBottom="180dp"
+        android:fontFamily="@font/autour_one"
+        android:text="Ricas mini torrtas con rica masa sabor vainilla nada secas, con un relleno a leche o a gusto, por encima una rica crema de leche con decorado de chispas de chocolate o con lo que le guste a usted, tenemos diferentes tooping a degustar, COMPRELO YA!"
+        android:textColor="@color/black"
+        android:textSize="22sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="401dp"
+        android:layout_height="146dp"
+        android:layout_marginStart="4dp"
+        android:layout_marginTop="160dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/cupkies" />
+
+    <TextView
+        android:id="@+id/textView9"
+        android:layout_width="398dp"
+        android:layout_height="113dp"
+        android:layout_marginTop="28dp"
+        android:layout_marginEnd="16dp"
+        android:fontFamily="@font/akronim"
+        android:text="cupcake"
+        android:textSize="80sp"
+        android:layout_gravity="center"
+        android:gravity="center"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        style="@style/Widget.Material3.Button"
+        android:layout_width="328dp"
+        android:layout_height="83dp"
+        android:layout_marginEnd="40dp"
+        android:layout_marginBottom="64dp"
+        android:backgroundTint="#F1E0F4"
+        android:fontFamily="@font/bad_script"
+        android:onClick="irpagina3"
+        android:shadowColor="#130C0C"
+        android:text="COMPRAR"
+        android:textColor="#120606"
+        android:textSize="30sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:strokeColor="#100909" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#e4c5c4"
+    tools:context=".pagina3">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="SpeakableTextPresentCheck" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/textView2"
+                android:layout_width="match_parent"
+                android:layout_height="109dp"
+                android:fontFamily="@font/akronim"
+                android:text="Productos"
+                android:textSize="90sp" />
+
+            <ImageButton
+                android:id="@+id/imageButton3"
+                android:scaleType="fitCenter"
+                android:layout_width="match_parent"
+                android:onClick="irpagina4"
+                android:layout_height="285dp"
+                android:src="@drawable/torta1"
+                tools:ignore="SpeakableTextPresentCheck" />
+
+            <TextView
+                android:id="@+id/textView4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/bad_script"
+                android:text="Torta Grande 130bs"
+                android:textSize="28sp" />
+
+            <ImageButton
+                android:id="@+id/imageButton4"
+                android:layout_width="match_parent"
+                android:layout_height="298dp"
+                android:onClick="irpagina5"
+                android:scaleType="fitCenter"
+                android:src="@drawable/torta2"
+                tools:ignore="SpeakableTextPresentCheck" />
+
+            <TextView
+                android:id="@+id/textView5"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/bad_script"
+                android:text="Tortas Medianas 70bs"
+                android:textSize="28sp" />
+
+            <ImageButton
+                android:id="@+id/imageButton5"
+                android:scaleType="fitCenter"
+                android:onClick="irpagina6"
+                android:layout_width="match_parent"
+                android:layout_height="328dp"
+                android:src="@drawable/torta3"
+                tools:ignore="SpeakableTextPresentCheck" />
+
+            <TextView
+                android:id="@+id/textView6"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/bad_script"
+                android:text="Tortas Pequeñas 35bs"
+                android:textSize="28sp" />
+
+            <ImageButton
+                android:id="@+id/imageButton6"
+                android:scaleType="fitCenter"
+                android:layout_width="match_parent"
+                android:layout_height="265dp"
+                android:src="@drawable/cupkies"
+                android:onClick="irpagina7"
+                tools:ignore="SpeakableTextPresentCheck" />
+
+            <TextView
+                android:id="@+id/textView7"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/bad_script"
+                android:text="Cupcakes 4bs Unidad"
+                android:textSize="28sp" />
+
+            <ImageButton
+                android:id="@+id/imageButton7"
+                android:layout_width="match_parent"
+                android:scaleType="fitCenter"
+                android:layout_height="320dp"
+                android:onClick="irpagina8"
+                android:src="@drawable/quques"
+                tools:ignore="SpeakableTextPresentCheck" />
+
+            <TextView
+                android:id="@+id/textView8"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/bad_script"
+                android:text="Queques Un Solo Tamaño"
+                android:textSize="28sp" />
+
+        </LinearLayout>
+    </ScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

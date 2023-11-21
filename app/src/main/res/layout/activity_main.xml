@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#e4c5c4"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="346dp"
+        android:layout_height="109dp"
+        android:layout_marginTop="4dp"
+        android:layout_marginEnd="36dp"
+        android:fontFamily="@font/akronim"
+        android:text="Bienvenidos "
+        android:textSize="90sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/button3"
+        style="@style/Widget.Material3.Button"
+        android:layout_width="328dp"
+        android:layout_height="83dp"
+        android:layout_marginEnd="44dp"
+        android:layout_marginBottom="276dp"
+        android:backgroundTint="#F1E0F4"
+        android:fontFamily="@font/bad_script"
+        android:onClick="irpagina2"
+        android:text="INICIAR SESION"
+        android:textColor="#120606"
+        android:textSize="25sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+    <Button
+        android:id="@+id/button2"
+        style="@style/Widget.Material3.Button"
+        android:layout_width="328dp"
+        android:layout_height="83dp"
+        android:layout_marginEnd="48dp"
+        android:layout_marginBottom="168dp"
+        android:backgroundTint="#F1E0F4"
+        android:fontFamily="@font/bad_script"
+        android:shadowColor="#130C0C"
+        android:text="CREAR CUENTA"
+        android:textColor="#120606"
+        android:textSize="25sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:strokeColor="#100909" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="277dp"
+        android:layout_height="269dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.272"
+        android:src="@drawable/logo1"
+         />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="#e4c5c4"
+    android:layout_height="match_parent"
+    tools:context=".pagina4">
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="375dp"
+        android:layout_height="284dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginBottom="132dp"
+        android:fontFamily="@font/autour_one"
+        android:text="Ricos Queques de varios sabores como ser de platano, naranja, mandarina,etc. preparada con mucho amor y delicadeza para la cual tiene una rica masa para que disfrute de sus tardes de tesitos, COMPRELO YA!"
+        android:textColor="@color/black"
+        android:textSize="22sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="406dp"
+        android:layout_height="202dp"
+        android:layout_marginStart="4dp"
+        android:layout_marginTop="144dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/quques" />
+
+    <TextView
+        android:id="@+id/textView9"
+        android:layout_width="398dp"
+        android:layout_height="113dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="8dp"
+        android:fontFamily="@font/akronim"
+        android:gravity="center"
+        android:text="Queques"
+        android:textSize="80sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        style="@style/Widget.Material3.Button"
+        android:layout_width="328dp"
+        android:layout_height="83dp"
+        android:layout_marginEnd="40dp"
+        android:layout_marginBottom="36dp"
+        android:backgroundTint="#F1E0F4"
+        android:fontFamily="@font/bad_script"
+        android:onClick="irpagina3"
+        android:shadowColor="#130C0C"
+        android:text="COMPRAR"
+        android:textColor="#120606"
+        android:textSize="30sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:strokeColor="#100909" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
